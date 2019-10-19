@@ -1,0 +1,244 @@
+    /* speakers section responsive */
+    /* extra small and small screens responsive */
+    
+    @media(max-width:576px) {
+        .who-speaking {
+            margin: 0 auto;
+        }
+        .who-speaking h2 {
+            padding-bottom: 25px;
+        }
+        .who-speaking .small-info,
+        .small-img {
+            padding: 5px;
+        }
+        .img img {
+            height: auto;
+            width: 100%;
+            position: relative;
+            bottom: 0;
+        }
+        .info p {
+            line-height: normal;
+        }
+        .social-media {
+            padding-bottom: 35px;
+        }
+        .social-media i {
+            padding: 10px;
+            font-size: 25px;
+            width: 45px;
+            margin-right: 8px;
+        }
+    }
+    /* medium screens responsive */
+    
+    @media(max-width:768px) {
+        .who-speaking {
+            margin: 0 auto;
+        }
+        .who-speaking h2 {
+            padding-bottom: 25px;
+        }
+        .who-speaking .small-info,
+        .small-img {
+            padding: 5px;
+        }
+        .img img {
+            width: 100%;
+            position: relative;
+            bottom: 0;
+        }
+        .info p {
+            line-height: normal;
+        }
+        .social-media {
+            padding-bottom: 35px;
+        }
+        .social-media i {
+            padding: 10px;
+            font-size: 25px;
+            width: 45px;
+            margin-right: 8px;
+        }
+    }
+    
+    @media(max-width:1024px) {
+        .who-speaking {
+            margin: 0 auto;
+        }
+        .who-speaking .row {
+            flex-wrap: nowrap;
+        }
+        .who-speaking h2 {
+            padding-bottom: 25px;
+            font-size: 25px;
+        }
+        .who-speaking .small-img {
+            padding: 0;
+            padding-top: 10px;
+        }
+        .who-speaking .small-info {
+            padding: 0;
+            padding-top: 10px;
+        }
+        .small-info h6 {
+            color: var(--main-color);
+            opacity: .9;
+            margin: 5px;
+        }
+        .info .speaker-name {
+            color: var(--main-color);
+            padding-bottom: 10px;
+            font-size: 24px;
+        }
+        .small-info p {
+            color: #9C9C9C;
+            font-size: 14px;
+            margin: 5px;
+        }
+        .btn-primary.view-all {
+            margin: 25px 0;
+        }
+        .info p {
+            line-height: normal;
+        }
+        .social-media {
+            padding-bottom: 35px;
+        }
+        .social-media i {
+            padding: 10px;
+            font-size: 25px;
+            width: 45px;
+            margin-right: 8px;
+        }
+    }
+    
+    @media(max-width:1200px) {
+        .who-speaking {
+            margin: 0 auto;
+        }
+        .who-speaking .row {
+            flex-wrap: nowrap;
+        }
+        .who-speaking h2 {
+            padding-bottom: 25px;
+            font-size: 25px;
+        }
+        .who-speaking .small-img {
+            padding: 0;
+            padding-top: 10px;
+        }
+        .who-speaking .small-info {
+            padding: 0;
+            padding-top: 10px;
+        }
+        .small-info h6 {
+            color: var(--main-color);
+            opacity: .9;
+            margin: 5px;
+        }
+        .info .speaker-name {
+            color: var(--main-color);
+            padding-bottom: 10px;
+            font-size: 24px;
+        }
+        .small-info p {
+            color: #9C9C9C;
+            font-size: 14px;
+            margin: 5px;
+        }
+        .btn-primary.view-all {
+            margin: 25px 0;
+        }
+        .info p {
+            line-height: normal;
+        }
+        .social-media {
+            padding-bottom: 35px;
+        }
+        .social-media i {
+            padding: 10px;
+            font-size: 25px;
+            width: 45px;
+            margin-right: 8px;
+        }
+    }
+    /* end of speakers section responsive */
+    /* extra small and small screens responsive */
+    
+    @media(max-width:576px) {
+        .schedule .row.btns-holder {
+            width: 100%;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .schedule .row.btns-holder button {
+            width: 85px;
+            font-size: 17px;
+            font-weight: 700;
+            text-align: center;
+        }
+    }
+    /* session holder  */
+    
+    @media(min-width:576px) {
+        .session-holder {
+            width: 100%;
+        }
+        .session-holder .row div {
+            padding: 20px 0;
+            margin: 0 auto;
+        }
+        .session-holder {
+            margin-top: 0;
+        }
+        .session-holder .row div {
+            padding: 10px;
+        }
+        .session-holder .date p {
+            margin: 0 auto;
+        }
+    }
+    
+    @media(min-width:768px) {
+        .schedule .row.btns-holder button {
+            width: 85px;
+            font-size: 17px;
+            font-weight: 700;
+            text-align: center;
+            border: none;
+            margin: 0 auto;
+        }
+        .session-holder {
+            width: 100%;
+        }
+        .session-holder .row {
+            padding: 0;
+            flex-wrap: nowrap;
+        }
+        .session-holder .row div {
+            padding: 20px 0;
+            margin: 0 auto;
+        }
+        .schedule-data {
+            width: 100%;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .session-holder .date h4 span {
+            font-size: 30px;
+            font-weight: bolder;
+            color: var(--main-color);
+        }
+        .session-holder .date h4 {
+            font-size: 20px;
+        }
+        .session-holder .date p {
+            margin: 0 auto;
+        }
+        .session-holder .subject h4 {
+            font-size: 20px;
+        }
+    }
+    /* schedule section responsive */
